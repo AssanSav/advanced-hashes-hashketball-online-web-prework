@@ -252,18 +252,3 @@ def long_name_steals_a_ton?
   name_with_steal != player_with_longest_name ? true : false
 end
 
-=begin
-def long_name_steals_a_ton?
-  name_with_steal = "" 
-  steals_number = 0
-  game_hash.each do |location, team_data|
-    team_data[:players].each do |name, data|
-      if data[:steals] > steals_number
-        name_with_steal = name
-        #binding.pry
-      end
-    end
-  end
-  name_with_steal != player_with_longest_name ? true : false
-end
-=end
