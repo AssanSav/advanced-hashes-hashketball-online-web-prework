@@ -201,7 +201,7 @@ def most_points_scored
       end
     end
   end
-  return most_points
+  return player_name
 end
 
 
