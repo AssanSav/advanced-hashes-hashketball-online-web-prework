@@ -240,6 +240,9 @@ def player_with_longest_name
 end
 
 def long_name_steals_a_ton
+  most_steals = 0 
+  
+end
 
 =begin
 def long_name_steals_a_ton?
