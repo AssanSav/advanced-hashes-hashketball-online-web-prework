@@ -249,7 +249,7 @@ def long_name_steals_a_ton
       end
     end
   end
-  return name_with_steal != player_with_longest_name ? true : false
+  name_with_steal != player_with_longest_name ? true : false
 end
 
 =begin
