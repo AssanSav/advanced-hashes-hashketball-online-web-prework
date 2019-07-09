@@ -207,21 +207,6 @@ end
 
 
 =begin
-def most_points_scored 
-  most_points = 0 
-  player_name = ""
-  game_hash.each do |location, team_data|
-    team_data[:players].each do |name, data|
-      if most_points < data[:points]
-        most_points = data[:points]
-        player_name = name
-        #binding.pry
-      end 
-    end
-  end
-  return player_name
-end
-      
       
 def winning_team 
   home_points = 0
