@@ -191,7 +191,11 @@ def big_shoe_rebounds
   return rebounds
 end
 
-def 
+def most_points_scored
+  most_points = 0 
+  game_hash.each do |location, team_data|
+    
+end
 
 
 =begin
