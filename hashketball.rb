@@ -194,7 +194,8 @@ end
 def most_points_scored
   most_points = 0 
   game_hash.each do |location, team_data|
-    
+    team_data[:players].each do |name, data|
+      
 end
 
 
